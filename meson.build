@@ -1,6 +1,6 @@
 project('tp_othello', 'cpp',
         version : '1.0.0',
-        default_options : ['warning_level=3', 'cpp_std=c++23'])
+        default_options : ['warning_level=3', 'cpp_std=c++23', 'buildtype=release'])
 
 tp_inc = include_directories('include')
 tp_src = files('main.cpp')
